@@ -154,8 +154,8 @@ button:focus {
   justify-content: center;
   border: 1px solid #fff;
   border-radius: 5px;
-  width: 420px;
-  height: 400px;
+  width: fit-content;
+  padding: 50px;
   background-color: #222;
 }
 
