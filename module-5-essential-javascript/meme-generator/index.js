@@ -2,13 +2,13 @@ import { catsData } from '/data.js'
 
 const animatedBtn = document.getElementById('animated-btn')
 const memeModalInner = document.getElementById('meme-modal-inner')
-const memeModal = document.getElementById('meme-modal')
+const memeModal = document.getElementById('modal-bg')
 const memeModalCloseBtn = document.getElementById('meme-modal-close-btn')
 const moodBtns = document.querySelectorAll('.mood-btn')
 
 let isGif = false
 
-memeModalCloseBtn.addEventListener('click', closeModal)
+memeModal.addEventListener('click', closeModal)
 
 animatedBtn.addEventListener('click', function(e){
   if (isGif){
