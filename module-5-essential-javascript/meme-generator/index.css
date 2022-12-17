@@ -8,6 +8,9 @@
   src: url("/fonts/Satreva.ttf");
 }
 
+html {
+}
+
 html,
 body,
 button {
@@ -56,6 +59,7 @@ h4 {
 body {
   background-color: #222;
   color: #fff;
+  cursor: url("/images/cursor.png"), default;
 }
 
 .header-inner {
@@ -88,8 +92,8 @@ body {
 }
 
 .check-section:hover {
-  cursor: pointer;
   box-shadow: 0 0 0 1px white;
+  cursor: url('/images/pointer.png'), pointer;
 }
 
 .check-section:active, button:active {
@@ -132,6 +136,7 @@ button {
 
 button:hover {
   box-shadow: 0 0 0 1px#fff;
+  cursor: url('/images/pointer.png'), pointer;
 }
 
 button:focus {
